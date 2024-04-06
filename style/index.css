@@ -170,3 +170,52 @@
     margin-top: 1rem;
     margin-bottom: 1rem;
 }
+
+/* build -------------------------------------------*/
+
+.base-build .base-body{
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.build-li{
+    padding: 1.5rem 3rem;
+    text-align: center;
+    color: rgba(255,255,255,.9);
+    background-color: #ccc;
+    border-radius: 5px;
+    transform: skew(-15deg);
+}
+
+.build-li + .build-li{
+    margin-top: 2rem;
+}
+
+.build-content{
+    transform: skew(15deg);
+}
+
+
+.build-title{
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.build-desc{
+    margin-top: 1rem;
+    line-height: 1.5;
+}
+
+.build-li-1{ 
+    background-color: #f5ba54;
+}
+
+.build-li-2{
+    background-color: #eaa666;
+}
+
+.build-li-3{
+    background-color: #cf7688;
+}
+
