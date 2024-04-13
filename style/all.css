@@ -25,6 +25,10 @@ img {
     margin-right: auto;
 }
 
+.container-md{
+    max-width: 800px;
+    box-sizing: border-box;
+}
 
 
 /* header -------------------------------------------*/
