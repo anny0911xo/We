@@ -15,17 +15,17 @@ img {
 
 
 /* helper -------------------------------------------*/
-.container{
+.container {
     max-width: 1200px;
     box-sizing: border-box;
 }
 
-.mx-auto{
+.mx-auto {
     margin-left: auto;
     margin-right: auto;
 }
 
-.container-md{
+.container-md {
     max-width: 800px;
     box-sizing: border-box;
 }
@@ -33,7 +33,7 @@ img {
 
 /* header -------------------------------------------*/
 
-.header{
+.header {
     /* background-color: cornflowerblue; */
     display: flex;
     justify-content: space-between;
@@ -45,38 +45,39 @@ img {
     left: 0;
 }
 
-.header-head ,.header-bodt, .header-foot{
+.header-head, .header-bodt, .header-foot {
     padding: .5rem 1rem;
     box-sizing: border-box;
 }
 
-.header-head{
+.header-head {
     /* background-color: gold; */
     width: 80px;
 }
-.header-img{
+
+.header-img {
     max-width: 100%;
     height: auto;
 }
 
-.header-foot,.header-btn-times{
+.header-foot, .header-btn-times {
     display: none;
 }
 
-.header-ul{
+.header-ul {
     display: flex;
-    background-color: rgba(0,0,0,.7);
+    background-color: rgba(0, 0, 0, .7);
     padding: .5rem 1rem;
     border-radius: 30px;
 }
 
 
-.header-li{
+.header-li {
     margin-left: 1rem;
     margin-right: 1rem;
 }
 
-.header-link{
+.header-link {
     color: #fff;
     text-decoration: none;
     text-transform: uppercase;
@@ -85,7 +86,7 @@ img {
     transition-duration: .3s;
 }
 
-.header-link:hover{
+.header-link:hover {
     color: #fd7e98;
 }
 
@@ -94,18 +95,18 @@ img {
 
 /* index banner -------------------------------------------*/
 
-.banner{
-    background-image: linear-gradient(135deg,#d86f84 .5%,#fdcf00 100%);
+.banner {
+    background-image: linear-gradient(135deg, #d86f84 .5%, #fdcf00 100%);
     color: #fff;
-    clip-path: polygon(0 0 ,100% 0,100% 85%,0% 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 85%, 0% 100%);
 }
 
-.banner-container{
+.banner-container {
     display: flex;
     align-items: center;
 }
 
-.banner-head,.banner-body{
+.banner-head, .banner-body {
     width: 50%;
     padding-left: 1rem;
     padding-right: 1rem;
@@ -120,69 +121,69 @@ img {
     background-color: cornflowerblue;
 } */
 
-.banner-index .banner-head{
+.banner-index .banner-head {
     display: flex;
     flex-direction: column;
     width: 40%;
 }
 
-.banner-index .banner-body{
+.banner-index .banner-body {
     position: relative;
     width: 60%;
 }
 
 .banner-index .banner-head,
-.banner-index .banner-body{
+.banner-index .banner-body {
     padding-top: 3rem;
 }
 
 
-.banner-title{
+.banner-title {
     margin-bottom: 2rem;
     font-size: 2.2rem;
 }
 
 
-.banner-small{
+.banner-small {
     display: block;
     margin-top: 0.5rem;
     text-transform: uppercase;
     font-size: 1.5rem;
 }
 
-.banner-subTitle{
+.banner-subTitle {
     margin-bottom: 2rem;
     font-size: 1.75rem;
-    color: rgba(255,255,255,.7);
+    color: rgba(255, 255, 255, .7);
     line-height: 1.5em;
 }
 
-.banner-desc{
+.banner-desc {
     line-height: 1.6em;
 }
 
-.banner-ul{
+.banner-ul {
     display: flex;
     margin-bottom: 4rem;
     font-weight: 600;
     text-transform: uppercase;
-    color: rgba(255,255,255,.3);
+    color: rgba(255, 255, 255, .3);
 }
 
-.banner-ul-order1{
+.banner-ul-order1 {
     order: -1;
 }
 
-.banner-li+ .banner-li{
+.banner-li+.banner-li {
     position: relative;
     margin-left: 1rem;
- }
+}
 
-.banner-btns{
+.banner-btns {
     margin-top: 2rem;
 }
 
-.banner-btn{
+.banner-btn {
     padding: 1rem 3rem;
     display: inline-block;
     text-transform: uppercase;
@@ -193,63 +194,62 @@ img {
     text-decoration: .3s;
 }
 
-.banner-btn:hover{
-    background-color: rgba(225,225,225,.2);
+.banner-btn:hover {
+    background-color: rgba(225, 225, 225, .2);
 }
 
-.banner-img{
+.banner-img {
     max-width: 100%;
     height: auto;
 }
 
 .banner-img-mobile,
-.banner-img-pad{
+.banner-img-pad {
     position: absolute;
 }
 
-.banner-img-mobile{
+
+.banner-img-mobile {
     z-index: 1;
     bottom: 5rem;
     left: 0;
 }
 
-.banner-img-pad{
+.banner-img-pad {
     bottom: -2rem;
     right: 1rem;
 }
 
-.banner-img-desktop{
+.banner-img-desktop {
     margin-left: 4.5rem;
 }
 
 
-
-
 /* service banner -------------------------------------------*/
 
-.banner-title-line{
+.banner-title-line {
     position: relative;
 }
 
-.banner-title-line::after{
+.banner-title-line::after {
     position: absolute;
     bottom: -1rem;
     left: 0;
     width: 1.5em;
-    border-top: solid 4px rgba(225,225,225,.5);
+    border-top: solid 4px rgba(225, 225, 225, .5);
     content: "";
 }
 
-.banner-desc +.banner-desc{
+.banner-desc+.banner-desc {
     margin-top: 1rem;
 }
 
-.banner-desc-lg{
+.banner-desc-lg {
     font-size: 1.5rem;
     line-height: 1.3;
 }
 
-.banner-img-fit{
+.banner-img-fit {
     height: 400px;
     object-fit: cover;
 }
@@ -257,22 +257,22 @@ img {
 
 /* footer -------------------------------------------*/
 
-.footer{
+.footer {
     display: flex;
     justify-content: space-between;
     background-color: #666;
     padding: 7rem 1rem 1rem;
     align-items: flex-end;
-    clip-path: polygon(0 50%,100% 0,100% 100%,0% 100%);
+    clip-path: polygon(0 50%, 100% 0, 100% 100%, 0% 100%);
 }
 
-.footer-img-logo{
+.footer-img-logo {
     max-width: 40px;
     height: auto;
     margin-bottom: .5rem;
 }
 
-.footer-link{
+.footer-link {
     color: #fff;
     text-decoration: none;
     text-transform: uppercase;
@@ -281,21 +281,21 @@ img {
     transition-duration: .3s;
 }
 
-.footer-link:hover{
+.footer-link:hover {
     color: #fd7e98;
 }
 
-.footer-desc{
+.footer-desc {
     font-size: .9rem;
     color: #fff;
     text-transform: uppercase;
 }
 
-.footer-ul{
+.footer-ul {
     display: flex;
 }
 
-.footer-li{
+.footer-li {
     margin-left: 1rem;
 }
 
@@ -304,21 +304,52 @@ img {
 
 /* aside -------------------------------------------*/
 
-.aside{
+.aside {
     z-index: 10;
     position: fixed;
     right: 1rem;
     bottom: 15rem;
 }
 
-.aside-link-top{
-    color: rgba(0,0,0,.2);
+.aside-link-top {
+    color: rgba(0, 0, 0, .2);
     font-size: 3rem;
     transition-duration: .3s;
 }
 
-.aside-link:hover{
-    color: rgba(0,0,0,.5);
+.aside-link:hover {
+    color: rgba(0, 0, 0, .5);
 }
 
 
+/* RWD----------------------------- */
+
+@media screen and (max-width: 480px) {
+    .header {
+        background-color: rgba(225, 225, 225, .7);
+        box-shadow: 0 5px 5px rgba(0, 0, 0, .05);
+    }
+}
+
+.header-body {
+    display: none;
+}
+
+.header-foot {
+    display: block;
+}
+
+.header-img-logo{
+    opacity: .5;
+}
+
+.header-btn{
+    padding: 0;
+    font-size: 2rem;
+    border: none;
+    background-color: transparent;
+}
+
+.header-btn-bars{
+    color: rgba(0,0,0,.5);
+}

@@ -219,3 +219,76 @@
     background-color: #cf7688;
 }
 
+
+
+/* animation ----------------------------*/
+
+.ani-move-downToUP,
+.ani-fadeIN-LeftToRight{
+    animation-fill-mode: forwards;
+}
+
+.ani-fadeIN-LeftToRight{
+    opacity: 0;
+}
+
+.ani-move-downToUp{    
+    transform: translateY(120%);
+    animation-name: moveDownToUP;  
+    animation-duration: .5s;
+}
+
+  
+.ani-fadeIN-LeftToRight{
+    transform: translateX(-100%);
+    animation-name: fadeInLeftToRight;
+    animation-duration: 1s;
+}
+
+
+.ani-delay-1{
+    animation-delay: .3s;
+}
+
+.ani-delay-2{
+    animation-delay: .6s;
+}
+
+.ani-delay-3{
+    animation-delay: .9s;
+}
+
+.ani-delay-4{
+    animation-delay: 1s;
+}
+
+.ani-delay-5{
+    animation-delay: 1.2s;
+}
+
+.ani-delay-6{
+    animation-delay: 1.3s;
+}
+
+.ani-delay-7{
+    animation-delay: 1.4s;
+}
+
+
+.banner-img-fit{
+    height: 400px;
+    object-fit: cover;
+}
+
+@keyframes moveDownToUp{
+    to{
+        transform: translateX(0);
+    }
+}
+
+@keyframes fadeInLeftToRight{
+    to{
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
